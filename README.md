@@ -1,27 +1,29 @@
 # QA E-commerce Testing Project
 
 ## Overview
-This project demonstrates my practical skills in manual testing, bug reporting, and test automation using Playwright.
+This project demonstrates my QA skills using a real-world application: https://automationexercise.com
 
-## Tools & Technologies
-- Playwright (Automation Testing)
+## Scope
+- Login functionality
+- Product search
+- Cart operations
+
+## Tools Used
+- Playwright (Automation)
 - Postman (API Testing)
 - Jira (Bug Tracking)
 
-## Test Coverage
-- User Authentication (Login)
-- Product Search
-- Cart Functionality
-
 ## Project Structure
 - test-cases.md → Manual test cases
-- bug-reports.md → Documented bug reports
-- tests/auth.spec.js → Playwright automation scripts
+- bug-reports.md → Bug reports
+- tests/ → Automation scripts
 
-## Sample Test Scenario
-Automated login test using Playwright to validate authentication flow.
+## Key Findings
+- Login error handling issue
+- Cart update delay
+- Search relevance inconsistency
 
-## How to Run Tests
+## How to Run
 1. Install dependencies:
    npm install
 

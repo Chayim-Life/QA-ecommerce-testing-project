@@ -16,6 +16,10 @@ Generic error message displayed
 
 **Severity:** Medium
 
+## Technical Observation
+- Network request may return an error response without proper handling
+- UI displays a generic error instead of meaningful feedback
+
 ---
 
 ## Bug 2: Cart count delay after adding product

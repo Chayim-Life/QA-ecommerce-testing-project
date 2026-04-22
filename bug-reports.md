@@ -1,33 +1,48 @@
-# Bug Report
+# Bug Reports – AutomationExercise
 
-## Title
-Login fails with valid credentials and returns generic error message
+---
 
-## Environment
-- Browser: Chrome 125
-- OS: Windows 10
-- Environment: Staging
+## Bug 1: Login error message lacks detail
 
-## Test Data
-- Email: testuser@example.com
-- Password: ValidPassword123
+**Steps:**
+1. Enter invalid credentials
+2. Click Login
 
-## Steps to Reproduce
-1. Navigate to login page
-2. Enter valid email
-3. Enter valid password
-4. Click Login
+**Expected:**
+Clear error message explaining issue
 
-## Expected Result
-User should be logged in and redirected to dashboard
+**Actual:**
+Generic error message displayed
 
-## Actual Result
-Login fails and error message is displayed
+**Severity:** Medium
 
-## Severity / Priority
-- Severity: High
-- Priority: P1
+---
 
-## Notes
-- Issue occurs intermittently
-- Possible backend or API issue
+## Bug 2: Cart count delay after adding product
+
+**Steps:**
+1. Add product to cart
+2. Observe cart count
+
+**Expected:**
+Cart count updates immediately
+
+**Actual:**
+Delay before update
+
+**Severity:** Low
+
+---
+
+## Bug 3: Search returns unrelated items
+
+**Steps:**
+1. Search "Dress"
+
+**Expected:**
+Only dress-related products
+
+**Actual:**
+Some unrelated items appear
+
+**Severity:** Medium

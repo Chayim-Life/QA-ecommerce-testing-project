@@ -1,7 +1,7 @@
 # QA E-commerce Testing Project
 
 ## Overview
-This project demonstrates my QA skills using a real-world application: https://automationexercise.com
+This project demonstrates my hands-on QA skills by testing a real-world e-commerce application
 
 ## Scope
 - Login functionality
@@ -29,6 +29,23 @@ This project demonstrates my QA skills using a real-world application: https://a
 
 2. Run tests:
    npx playwright test
+
+## Test Execution Results
+
+- Login tests executed to validate authentication flow  
+- Cart tests verified product addition and removal  
+- Edge case testing performed for empty input validation  
+- Basic validation checks completed for UI behavior  
+
+## Summary
+All core user flows were tested using both manual and automated approaches. Identified issues were documented in the bug reports section.
+
+## My Contribution
+- Designed and executed manual test cases for core user flows  
+- Identified and documented bugs with clear reproduction steps  
+- Implemented automation scripts using Playwright  
+- Performed validation testing on login, search, and cart features  
+- Analyzed application behavior and documented findings  
 
 ## Author
 Moses Olusanya

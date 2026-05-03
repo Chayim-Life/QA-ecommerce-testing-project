@@ -1,52 +1,33 @@
-# Bug Reports – AutomationExercise
+# Bug Reports
+
+## BUG-001: Login fails with valid credentials
+
+**Severity:** High  
+**Environment:** Chrome  
+
+**Steps to Reproduce:**
+1. Open login page  
+2. Enter valid credentials  
+3. Click login  
+
+**Expected Result:**  
+User should log in  
+
+**Actual Result:**  
+Login fails and shows error  
 
 ---
 
-## Bug 1: Login error message lacks detail
+## BUG-002: Cart not updating
+
+**Severity:** Medium  
 
 **Steps:**
-1. Enter invalid credentials
-2. Click Login
+1. Add item to cart  
+2. Check cart  
 
-**Expected:**
-Clear error message explaining issue
+**Expected Result:**  
+Cart count increases  
 
-**Actual:**
-Generic error message displayed
-
-**Severity:** Medium
-
-## Technical Observation
-- Network request may return an error response without proper handling
-- UI displays a generic error instead of meaningful feedback
-
----
-
-## Bug 2: Cart count delay after adding product
-
-**Steps:**
-1. Add product to cart
-2. Observe cart count
-
-**Expected:**
-Cart count updates immediately
-
-**Actual:**
-Delay before update
-
-**Severity:** Low
-
----
-
-## Bug 3: Search returns unrelated items
-
-**Steps:**
-1. Search "Dress"
-
-**Expected:**
-Only dress-related products
-
-**Actual:**
-Some unrelated items appear
-
-**Severity:** Medium
+**Actual Result:**  
+Cart remains unchanged  

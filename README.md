@@ -1,51 +1,59 @@
-# QA E-commerce Testing Project
+# QA E-commerce Testing Project (Manual + API + Automation)
 
-## Overview
-This project demonstrates my hands-on QA skills by testing a real-world e-commerce application
+## 📌 Project Overview
+This project demonstrates my hands-on experience as a Junior QA Engineer in testing a web-based e-commerce application.
 
-## Scope
+The goal of this project is to validate core functionalities, identify defects, and ensure system reliability using manual testing, API testing, and basic automation.
+
+---
+
+## 🌐 Application Tested
+[Insert the link of the website you tested]
+
+---
+
+## 🎯 Testing Scope
+The following features were tested:
+- User Authentication (Login/Logout)
+- Product Search
+- Add to Cart
+- Checkout Process
+
+---
+
+## 🧪 Testing Types
+- Functional Testing  
+- Regression Testing  
+- Exploratory Testing  
+- API Testing  
+
+---
+
+## 🛠 Tools Used
+- Postman (API Testing)  
+- Playwright (Automation)  
+- Chrome DevTools  
+- Excel / Documentation  
+- Jira (Bug Tracking)  
+
+---
+
+## 📂 Test Artifacts
+- Test Plan → `/Test-Plan`
+- Test Cases → `/Test-Cases`
+- Bug Reports → `/Bug-Reports`
+- API Testing → `/API-Testing`
+- Automation Scripts → `/Automation`
+- Screenshots → `/Screenshots`
+
+---
+
+## 🤖 Automation Overview
+Automation was implemented using Playwright to test key user flows such as:
 - Login functionality
-- Product search
-- Cart operations
+- Add to cart process
 
-## Tools Used
-- Playwright (Automation)
-- Postman (API Testing)
-- Jira (Bug Tracking)
-
-## Project Structure
-- test-cases.md → Manual test cases
-- bug-reports.md → Bug reports
-- tests/ → Automation scripts
-
-## Key Findings
-- Login error handling issue
-- Cart update delay
-- Search relevance inconsistency
-
-## How to Run
-1. Install dependencies:
-   npm install
-
-2. Run tests:
-   npx playwright test
-
-## Test Execution Results
-
-- Login tests executed to validate authentication flow  
-- Cart tests verified product addition and removal  
-- Edge case testing performed for empty input validation  
-- Basic validation checks completed for UI behavior  
-
-## Summary
-All core user flows were tested using both manual and automated approaches. Identified issues were documented in the bug reports section.
-
-## My Contribution
-- Designed and executed manual test cases for core user flows  
-- Identified and documented bugs with clear reproduction steps  
-- Implemented automation scripts using Playwright  
-- Performed validation testing on login, search, and cart features  
-- Analyzed application behavior and documented findings  
-
-## Author
-Moses Olusanya
+To run automation tests:
+```bash
+npm install
+npx playwright test

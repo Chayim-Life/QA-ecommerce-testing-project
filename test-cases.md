@@ -1,65 +1,41 @@
-# Test Cases – AutomationExercise
-
-## Overview
-Test cases covering authentication, product search, and cart functionality on https://automationexercise.com
-
----
+# Test Cases
 
 ## TC-001: Login with valid credentials
 **Steps:**
-1. Navigate to login page
-2. Enter valid email and password
-3. Click Login
+1. Navigate to login page  
+2. Enter valid username and password  
+3. Click login  
 
-**Expected Result:**
-User is logged in and redirected to account page
+**Expected Result:**  
+User should be logged in successfully  
 
 ---
 
 ## TC-002: Login with invalid credentials
 **Steps:**
-1. Enter incorrect email/password
-2. Click Login
+1. Enter invalid username/password  
+2. Click login  
 
-**Expected Result:**
-Error message: "Your email or password is incorrect!"
-
----
-
-## TC-003: Login with empty fields
-**Steps:**
-1. Leave fields empty
-2. Click Login
-
-**Expected Result:**
-Validation message displayed
+**Expected Result:**  
+Error message displayed  
 
 ---
 
-## TC-004: Search for product
+## TC-003: Add product to cart
 **Steps:**
-1. Enter "Dress" in search bar
-2. Press Enter
+1. Search for a product  
+2. Click "Add to Cart"  
 
-**Expected Result:**
-Relevant products are displayed
+**Expected Result:**  
+Product added to cart  
 
 ---
 
-## TC-005: Add product to cart
+## TC-004: Checkout process
 **Steps:**
-1. Select a product
-2. Click "Add to cart"
+1. Add item to cart  
+2. Proceed to checkout  
+3. Enter details  
 
-**Expected Result:**
-Product is added successfully
-
----
-
-## TC-006: Remove product from cart
-**Steps:**
-1. Add item to cart
-2. Remove item
-
-**Expected Result:**
-Item is removed and cart updates
+**Expected Result:**  
+Order should be completed  
